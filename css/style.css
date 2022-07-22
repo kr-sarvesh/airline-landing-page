@@ -19,8 +19,7 @@ body {
 .navbar img {
   width: 100px;
 }
-.grow-list {
-}
+
 .list {
   width: 800px;
   padding: 5px 10px;
@@ -41,12 +40,24 @@ body {
 .list .list-item {
   padding: 1px 5px;
 }
+.list-item {
+  cursor: pointer;
+}
+.list-item:hover {
+  color: #5a20cb;
+}
 
 .button-small {
   padding: 5px 15px;
   background-color: #ff69b4;
   border-radius: 6px;
+  color: white;
+  cursor: pointer;
 }
+.button-small:hover {
+  background-color: #5a20cb;
+}
+
 .hero {
   background: url(/images/bg.png);
   width: inherit;
@@ -55,4 +66,34 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   object-fit: contain;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-content h1 {
+  width: 600px;
+  align-items: center;
+  margin-top: 130px;
+  color: white;
+  text-align: center;
+  font-size: 3.5rem;
+}
+.hero-content p {
+  color: white;
+  margin: 12px auto;
+  font-size: 20px;
+}
+
+.button-large {
+  background-color: #ff69b4;
+  padding: 10px 30px;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  border: transparent;
+}
+.button-large:hover {
+  background-color: #5a20cb;
 }
