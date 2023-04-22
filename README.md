@@ -7,7 +7,7 @@
 
 ![image](https://img.shields.io/badge/KUMAR-SARVESH-orange)
 
-[<img src= "https://img.shields.io/badge/PROJECT LINK-20b?style=for-the-badge&logo=&logoColor=white" />](airline-lco-pro.netlify.app)
+[<img src= "https://img.shields.io/badge/PROJECT LINK-20b?style=for-the-badge&logo=&logoColor=white" /> ](https://airline-lco-pro.netlify.app/)
 
 ## About
 
